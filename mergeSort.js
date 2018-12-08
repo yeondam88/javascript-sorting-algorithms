@@ -46,4 +46,4 @@ function mergeSort(arr) {
   return merge(left, right);
 }
 
-console.log(mergeSort([2, 5, 1, 39, 23]));
+module.exports = mergeSort;
